@@ -1,0 +1,16 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "程序的逻辑内核",
+  "scripts": {
+    "test": "vitest --reporter=dot",
+    "coverage": "vitest run --coverage",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "tsc --noEmit --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inversify": "^6.0.3"
+  }
+}

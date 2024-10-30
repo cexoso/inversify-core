@@ -1,0 +1,15 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "vue 应用",
+  "scripts": {
+    "test": "vitest --reporter=dot",
+    "coverage": "vitest run --coverage",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "tsc --noEmit --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
