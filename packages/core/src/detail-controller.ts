@@ -1,6 +1,6 @@
 import { injectable } from 'inversify'
 
 @injectable()
-export class detailController {
+export class DetailController {
 
 }

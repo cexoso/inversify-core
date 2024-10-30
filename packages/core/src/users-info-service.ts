@@ -44,7 +44,7 @@ export class UserInfoService {
     // 这里使用依赖注入的方式使用 fetch，而不是直接的使用 window.fetch，是希望对于不同的环境可以注入
     // 不同的 fetch 实例，对于单元测试环境是不希望真实的发送请求的。在这里 fetch 就属于 humble object
     // 它是测试的边界
-    return this.fetch(`/api.github.com/users/${name}`).then((res) =>
+    return this.fetch(`https://api.github.com/users/${name}`).then((res) =>
       res.json()
     );
   }
