@@ -24,6 +24,7 @@ export default defineConfig((env) => {
           "src/protos", // 自动生成的协议层
         ],
       },
+      base: "/inversify-core/react-app",
       browser: {
         enabled: true,
         screenshotFailures: false,

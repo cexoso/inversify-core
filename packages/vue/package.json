@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite --open",
     "type-check": "vue-tsc --noEmit",
+    "build": "vite build",
     "type-check:watch": "vue-tsc --noEmit --watch"
   },
   "author": "",

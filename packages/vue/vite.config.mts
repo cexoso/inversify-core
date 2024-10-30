@@ -15,6 +15,7 @@ export default defineConfig((env) => {
         web: [/.[jt]sx$/],
       },
       include: ["**/?(*.){test,spec}.?(c|m)[jt]s?(x)"],
+      base: "/inversify-core/vue-app",
       coverage: {
         include: ["src"],
         exclude: [
