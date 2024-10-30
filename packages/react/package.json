@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "react 应用",
   "scripts": {
-    "test": "vitest --reporter=dot",
-    "coverage": "vitest run --coverage",
-    "type-check": "tsc --noEmit",
-    "type-check:watch": "tsc --noEmit --watch"
+    "dev": "vite --open",
+    "type-check": "vue-tsc --noEmit",
+    "type-check:watch": "vue-tsc --noEmit --watch"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@vitejs/plugin-react": "^4.3.3",
+    "@vue/reactivity": "^3.5.12",
+    "inversify": "^6.0.3",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@types/react-dom": "^18.3.1",
+    "core": "workspace: *",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
