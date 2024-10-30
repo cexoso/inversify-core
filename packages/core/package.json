@@ -17,6 +17,7 @@
     "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
-    "vitest": "^2.1.4"
+    "vitest": "^2.1.4",
+    "utils": "workspace: *"
   }
 }
