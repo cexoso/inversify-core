@@ -8,6 +8,7 @@ export default defineConfig((env) => {
     resolve: {
       extensions: [".ts", ".js", ".tsx"],
     },
+    base: "/inversify-core/vue-app/",
     // 以下是单元测试的配置
     test: {
       globals: true,
@@ -15,7 +16,6 @@ export default defineConfig((env) => {
         web: [/.[jt]sx$/],
       },
       include: ["**/?(*.){test,spec}.?(c|m)[jt]s?(x)"],
-      base: "/inversify-core/vue-app",
       coverage: {
         include: ["src"],
         exclude: [

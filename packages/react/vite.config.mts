@@ -7,6 +7,7 @@ export default defineConfig((env) => {
     resolve: {
       extensions: [".ts", ".js", ".tsx"],
     },
+    base: "/inversify-core/react-app/",
     // 以下是单元测试的配置
     test: {
       globals: true,
@@ -24,7 +25,6 @@ export default defineConfig((env) => {
           "src/protos", // 自动生成的协议层
         ],
       },
-      base: "/inversify-core/react-app",
       browser: {
         enabled: true,
         screenshotFailures: false,
